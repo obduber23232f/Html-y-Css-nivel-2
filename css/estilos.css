@@ -1,14 +1,101 @@
 body{
 	background: gold;
 }
-li a{
+
+nav li a{
 	text-decoration: none;
+	color: white;
 
 }
 ul{
 	list-style: none;
 }
-
+*{
+	margin:0;
+	padding: 0;
+	border:0;
+}
 header{
 	background: black;
+	height: 100px;
+	padding: 0px 15px;
+}
+figure{
+	float: left;
+}
+nav{
+	float: right;
+}
+nav li{
+	float: left;
+	margin: 10px;
+	background: orange;
+	padding: 7px 10px;
+	border-radius: 20px;
+}
+
+#banner{
+	background: lightblue;
+	height: 300px;
+}
+#noticias{
+	background: silver;
+	height: 1040px;
+	width: 800px;
+	float: left;
+
+}
+#noticias article{
+	width: 300px;
+	background: white;
+	height: 450px;
+
+	/*margin-top:20px;
+	margin-left: 80px;
+	margin-bottom: 10px;*/
+	margin: 10px;
+	padding: 10px;
+
+	border-top: 8px dotted red;
+	border-right: 5px  dashed darkblue;
+	border-bottom: 12px double purple;
+	border-left: 15px solid black;
+	/*border:5px dashed red;*/
+	/*
+	estilos de border:solid,dotted,dashed,double;
+	*/
+	float: left;
+}
+#noticias article img{
+	width: 100%;
+}
+aside{
+	width: 623px;
+	height: 1000px;
+	background: pink;
+	float: right;
+}
+
+footer{
+	background: black;
+	color :white;
+	text-align:center;
+	clear:both;
+	padding: 20px;
+}
+.imagen-relativa{
+	position: relative;
+	top:80px; 
+	right:;
+	left:100px;
+	bottom:;
+}
+form{
+	position: relative;
+	top:22px;
+	left: 40px;
+
+}
+input{
+	padding: 7px;
 }
