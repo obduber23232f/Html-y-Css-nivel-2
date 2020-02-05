@@ -26,13 +26,35 @@ figure{
 nav{
 	float: right;
 }
+
+
+
 nav li{
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	margin: 10px;
 	background: orange;
 	padding: 7px 10px;
 	border-radius: 20px;
 }
+nav li:hover{
+background: blue;
+/*visibility: hidden;*/
+display:none;
+}
+nav li ul{
+	position: absolute;
+	display: none;
+}
+nav li ul li{
+	display: block;
+
+}
+nav li:hover ul{
+	display: block;
+	
+}
+
 
 #banner{
 	background: lightblue;
@@ -65,6 +87,7 @@ nav li{
 	estilos de border:solid,dotted,dashed,double;
 	*/
 	float: left;
+	overflow: auto;
 }
 #noticias article img{
 	width: 100%;
