@@ -48,7 +48,7 @@ nav li{
 #noticias article{
 	width: 300px;
 	background: white;
-	height: 450px;
+	height: 250px;
 
 	/*margin-top:20px;
 	margin-left: 80px;
@@ -84,11 +84,12 @@ footer{
 	padding: 20px;
 }
 .imagen-relativa{
-	position: relative;
-	top:80px; 
+	position: fixed;
+	top:5px; 
 	right:;
 	left:100px;
 	bottom:;
+
 }
 form{
 	position: relative;
@@ -98,4 +99,7 @@ form{
 }
 input{
 	padding: 7px;
+}
+#noticias article img{
+	width: 200px;
 }
