@@ -1,0 +1,41 @@
+*{
+	padding:0;margin:0;border:0;
+}
+.rojo{
+	background:#ee3e64;
+	padding:95px;
+	position:fixed;
+	top:0px;left:0px;
+	z-index:3;
+}
+.azul{
+	background:#44accf;
+	padding:95px;
+	position:fixed;
+	right:0px;top:0px;
+	z-index:2;
+}
+.verde{
+	background:#b7d84b;
+	padding:95px;
+	position:fixed;
+	left:0px;
+	z-index: 1;
+	bottom: 0px;
+}
+.amarillo{
+	background:#ebde52;
+	padding:95px;
+	position:fixed;
+	right:0px;
+	z-index:4;
+	bottom: 0px;
+}
+.anaranjado{
+	background:#f95b34;
+	padding:25px;
+	margin:0 auto;
+	position:relative;
+	top:5px;right:10px;
+}
+/*No le coloque mucho padding porque los cuadros se ven muy grandes,pero si lo ve a traves de inspeccionar ocurre la fusion o disminuyendo el zoom*/

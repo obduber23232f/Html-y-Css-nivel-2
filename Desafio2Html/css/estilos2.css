@@ -1,0 +1,91 @@
+	@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+	*{
+		margin:0;
+		padding: 0;
+		border:0;
+		font-family: 'Raleway', sans-serif;
+	}
+	#tope{
+		background: #263238;
+		color: white;
+		text-align: center;
+		height: 20px;
+		padding: 5px;
+	}
+	#banner{
+		height: 100%;
+		width: 100%;
+	}
+	#rede{
+		position: relative;
+		bottom: 68px;
+		right:99px;
+	}
+	#logo{
+		height: 100px;
+		position: relative;
+		top: 20px;
+		left: 110px;
+	}
+	.redes{
+		float: right;
+	}
+	.f{
+		height: 50px;
+		position: relative;
+		bottom: 65px;
+		right: 100px;
+	}
+	nav{
+		background: #F5769F;
+		float: right;
+		height: 45px;
+		width: 820px;
+		position:relative;
+		top: 47px;
+		left: 70px;
+		border-radius: 10px;
+	}
+	.marron{
+		background:#8E5C51;
+		padding: 13.2px;
+		position: relative;
+		bottom: 4px;
+		right: 4px;
+		width: 40px;
+		margin: 4px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+	/*
+	li{
+		float: left;
+		margin: 15px
+	}*/
+		.los-li{
+			position: relative;
+			bottom: 55px;
+			left: 75px;
+			float: left;
+			margin: 15px;
+		}
+
+		ul{
+			list-style: none;
+		}
+		.color-letra{
+			text-decoration:none;
+			color:white;
+			display: block;
+		}
+		nav li ul{
+			background: #F5769F;
+			color: white;
+			position: absolute;
+			display:none;
+
+		}
+		nav li:hover ul{
+			display:block;
+		}
+
