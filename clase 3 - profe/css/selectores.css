@@ -1,0 +1,23 @@
+body > p{
+	background: yellow;
+}
+div + p{
+	background: blue;
+	color: white;
+}
+p + p{
+	background: pink;
+}
+p ~ p{
+	background: black;
+	color: white;
+}
+a[href]{
+	background: orange;
+}
+a[href="servicios"]{
+	background: purple;
+}
+a[href*="o"]{
+	background: silver;
+}

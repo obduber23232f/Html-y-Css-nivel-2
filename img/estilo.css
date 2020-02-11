@@ -1,0 +1,65 @@
+p{
+	color: orange;
+}
+/*.fondo-negro{
+	background: black;
+}*/
+body > p{ /*selector hijo directo*/
+	background: blue;
+}
+p + p{ /*hermano adyacente*/
+	background: yellow;
+}
+p ~ p{ /*hermano general*/
+	background: green;
+	color:white;
+}
+a[class]{ /*atributo presente*/
+	background: yellow;
+}
+a[class="otro-mas"]{ /*atributo igual*/
+	background: purple;
+	color:white;
+}
+a[href*="w"]{ /*atributo contenido*/
+	background: lightblue;
+}
+.cajas div{
+	width: 50px;
+	height: 50px;
+}
+/*selectores de pseudoclases*/
+/*
+	primer hijo -> first-child
+	último hijo -> last-child
+	otro hijo -> nth-child(#)
+*/
+.cajas div:first-child{
+	background: red;
+}
+.cajas div:nth-child(2){
+	background: yellow;
+}
+.cajas div:nth-child(3){
+	background: violet;
+}
+.cajas div:nth-child(4){
+	background: green;
+}
+.cajas div:last-child{
+	background: orange;
+}
+.cajas div:first-child:hover{
+	background: silver;
+}
+.cajas div:first-child:active{
+	background: blue;
+}
+
+/*
+	hover:mouse encima del elemento
+	active: al hacer click
+*/
+.cajas div:hover{
+	background: black;
+}

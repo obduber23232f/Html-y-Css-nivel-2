@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header{
+	background: black;
+	height: 80px;
+	padding: 20px 15px;
+}
+header form{
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 50px;
+}
+header form input{
+	padding: 7px;
+}
+header form #palabra-formulario{
+	width: 200px;
+}
+figure{
+	float: left;
+}
+nav{
+	position: relative;
+	top: 8px;
+	float: right;
+}
+nav li{
+	display: inline-block;
+	margin: 10px;
+	background: orange;
+	padding: 7px;
+	list-style: none;
+}
+nav li:hover{
+	background: blue;
+	visibility: hidden;
+}
+nav li ul{
+	position: absolute;
+	display: none;
+}
+nav li ul li{
+	display: block;
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+#banner{
+	background: lightblue;
+	height: 300px;
+}
+#noticias{
+	background: silver;
+	height: 1100px;
+	width: 800px;
+	float: left;
+}
+#noticias article{
+	width: 300px;
+	height: 250px;
+	background: white;
+/*	margin-top: 20px;
+	margin-left: 80px;
+	margin-bottom: 10px;*/
+	margin: 10px;
+	padding: 10px;
+/*	border-width: 10px;
+	border-style: solid;
+	border-color: green;*/
+	border: 3px double green;
+	/*
+		estilos de borde: solid
+							dotted
+							dashed
+							double
+	*/
+	border-top: 5px dashed red;
+	border-right: 20px double yellow;
+	border-bottom: 10px solid pink;
+	border-left: 1px dotted blue;
+	float: left;
+	overflow: auto;
+}
+#noticias article img{
+	width: 100%;
+}
+aside{
+	width: 310px;
+	height: 1100px;
+	background: pink;
+	float: right;
+}
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	clear: both;
+	padding: 20px;
+}
+.imagen-relativa{
+	position: fixed;
+	top: 80px;
+}
+#noticias article img{
+	width: 200px;
+}
+#imagen01{
+	left: 100px;
+}
+#imagen02{
+	left: 500px;
+}
