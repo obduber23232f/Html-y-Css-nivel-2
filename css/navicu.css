@@ -80,3 +80,28 @@ background: #552749;
 	height: 300px;
 	background: #221438;
 }
+.foto-destino{
+	width: 200px;
+	height: 180px;
+	float: left;
+	margin: 3em 1em;
+}
+img[title="destinos"]{
+	width: 100%;
+	transition: transform 1s linear;
+
+}
+.imagen-rotando:hover{
+	transform: rotate(200000deg);
+}
+
+.imagen-estirada:hover{
+transform: skew(60deg);
+}
+
+.imagen-escalando:hover{
+	transform: scale(1.2);
+}
+.imagen-trasladada:hover{
+	transform: translate(100px);
+}
