@@ -92,11 +92,12 @@ img[title="destinos"]{
 
 }
 .imagen-rotando:hover{
-	transform: rotate(200000deg);
+	transform: rotate(20000000deg);
 }
 
 .imagen-estirada:hover{
-transform: skew(60deg);
+/*transform: skew(60deg);*/
+filter: grayscale(100%) blur(10px); 
 }
 
 .imagen-escalando:hover{
