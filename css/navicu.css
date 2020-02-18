@@ -23,14 +23,19 @@ nav li{
 	display: inline-block;
 	margin: 5px;
 	padding: 10px;
-	border-radius: 7px;
+	border-radius: .5em;
 }
 nav li > a{
 	color: white;
 	text-decoration: none;
+	text-shadow: 5px 5px 2px rgba(0,0,0,.6);
 }
 nav li:last-child{
 	background: #f2af00;
+	
+}
+nav li:last-child:hover{
+	box-shadow: inset 0px 0px 20px rgba(10,10,10,.4);
 }
 .margenes + .franjas{
 	clear: both;
@@ -38,7 +43,7 @@ nav li:last-child{
 	bottom: 0;
 }
 .margenes + .franjas div{
-	width: 360px;
+	width: 355.5px;
 	height: 7px;
 	float: left;
 }
@@ -55,6 +60,23 @@ background: #b5226c;
 .margenes + .franjas div:nth-child(4){
 background: #552749;
 } 
-.buscar{
-	margin: 0 auto;
+#principal{
+	height: 500px;
+	background-image: url("../img/Lighthouse.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment:fixed;
+}
+#principal > div{
+	width: 600px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+#destinos{
+	height: 300px;
+	background: #221438;
 }
