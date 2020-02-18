@@ -78,7 +78,8 @@ background: #552749;
 }
 #destinos{
 	height: 300px;
-	background: #221438;
+	/*background: #221438;*/
+	background: linear-gradient(red,yellow);
 }
 .foto-destino{
 	width: 200px;
